@@ -1,5 +1,5 @@
 import numpy as np
-import scipy, stat
+from scipy import stat 
 
 print("Qno. 1: Find the mean of this particular dataset")
 
@@ -22,10 +22,10 @@ _Hamza = [77, 78, 85,86,86,86,87,87,88,94,99,103]
 even = np.median(_Hamza)
 print(even)
 
-# print("Qno. 3: Find the mode of the dataset, hence we use Hamza_1 dataset")
-#
-# sp = np.mod(Hamza_1)
-# print(sp)
+print("Qno. 3: Find the mode of the dataset, hence we use Hamza_1 dataset")
+
+sp = np.mod(Hamza_1)
+print(sp)
 
 
 
